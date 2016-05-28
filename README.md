@@ -1,6 +1,6 @@
 #SimpleSambaServer
  
-Simple Alpine base samba server.
+Simple Alpine based samba server.
 
 This is a bare bones samba server which allows for full customisation of the smb.conf file. 
 You can define new user accounts and groups, and add users to groups.
