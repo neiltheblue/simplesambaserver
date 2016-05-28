@@ -7,7 +7,7 @@ You can define new user accounts and groups, and add users to groups.
 
 The server includes an nmbd service, which is run as a daemon and an smbd service which runs in the forground and can be monitored with `docker logs`
 
-## To use run a simple server
+## To run a simple server
 
   ```
   docker run -d -p 445:445 -p 137:137 -p 139:139 -p 137:137/udp -p 138:138/udp blue/samba \
