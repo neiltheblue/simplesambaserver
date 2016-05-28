@@ -10,7 +10,7 @@ The server includes an nmbd service, which is run as a daemon and an smbd servic
 ## To run a simple server
 
   ```
-  docker run -d -p 445:445 -p 137:137 -p 139:139 -p 137:137/udp -p 138:138/udp blue/samba \
+  docker run -d -p 445:445 -p 137:137 -p 139:139 -p 137:137/udp -p 138:138/udp neiltheblue/simplesambaserver \
   -s global:"netbios name = smbhost:workgroup = MYGRP:security = user:map to guest = bad user" \
   -s tmp:"comment = Temporary file space:path = /tmp:read only = no:guest ok = yes" \
   -g 1003:video \
