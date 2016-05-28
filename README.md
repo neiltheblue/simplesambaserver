@@ -1,4 +1,5 @@
-SimpleSambaServer
+#SimpleSambaServer
+ 
 Simple Alpine base samba server.
 
 This is a bare bones samba server which allows for full customisation of the smb.conf file. 
