@@ -46,5 +46,5 @@ do
 	shift
 done
 
-nmbd -D
+nmbd -FS < /dev/null &
 smbd -FS < /dev/null
