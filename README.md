@@ -6,7 +6,7 @@ Simple Alpine based samba server.
 This is a bare bones samba server which allows for full customisation of the smb.conf file. 
 You can define new user accounts and groups, and add users to groups.
 
-The server includes nmbd and smbd services which are runs in the forground and can be monitored with `docker logs`
+The server includes nmbd and smbd services which are runs in the forground and can be monitored with `docker logs -f <container_name>`
 
 ## To run a simple server
 
